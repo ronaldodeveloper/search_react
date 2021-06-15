@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Button from './Components/Search.jsx'
 
+
+function App(){
+  return (
+  <>  
+    <h1>Buscar caracteres aleatórios</h1>
+    <h2>Digite uma letra ou palavra para efetuar a busca</h2>   
+    <Button/>
+  </>
+  )
+}
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -11,7 +19,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

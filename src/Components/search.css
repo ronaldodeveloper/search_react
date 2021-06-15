@@ -1,0 +1,39 @@
+section{
+    width: 240px;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    background-color: rgb(151, 67, 246); 
+}
+input{
+  width:80%;
+  padding: 3px;
+
+}
+button{
+  /* background-color: rgb(61, 61, 230); */
+  width:20%;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+}
+.svg-icon{
+    width:80%;
+    height:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+path{
+    fill:rgb(255, 255, 255);
+    stroke: white;
+    stroke-width: 0.1em;
+}
+p.txt{
+  font-family: arial,sans-serif;
+  color: rgb(151, 67, 246) ;
+}
